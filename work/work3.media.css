@@ -1,0 +1,339 @@
+/*smart phone and tablet*/
+@media (max-width:576px){
+    .Diverse .ss {
+        background-color:#Fff ;
+        border:1px solid #999;
+       border-radius: 5px;
+      
+        padding:0;
+        margin-right: 10px;
+    }
+    .Diverse .ss li{
+        padding: 15px;
+        font-size: 20px;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        display: inline-block;
+    }
+    .Diverse h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #555;
+        letter-spacing: -2px;
+        margin-bottom: 30px;
+    }
+    .pieces .box {
+        width: 200px;
+        margin-bottom: 10px;
+        position: relative;
+        margin-right: 10px;
+        overflow: hidden;
+        margin:25px auto;
+    }
+
+    .companies h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .pieces h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #eee;
+        margin-bottom: 25px;
+    }
+
+    .our-skills h2 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .footer .helpful h3, .footer .contact h3 {
+        color: #a80707;
+        margin-bottom: 24px;
+        font-family: Tahoma;
+        font-size: 24px;
+        margin-top: 16px;
+    }
+
+
+    .footer .contact ul li {
+        margin-bottom: 15px;
+        color: #777;
+    }
+
+
+    .contact-img label {
+        color: #444;
+        display: block;
+       margin-right: 220px;
+        font-size: 18px;
+        margin-top: 27px;
+    }
+
+    .about-slider .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding: 20px;
+        height: 680px;
+    
+    }
+
+    .about-slider .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 6;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+        top: 680px;
+    }
+
+    .help h1{
+        color:#222;
+        font-size:30px;
+        font-weight: bold;
+      }
+
+      .search .pp{
+        font-size: 35px;
+        color:#666;
+        font-weight: bold;
+    }
+
+    .box-map .row .mm{
+        font-size: 20px;
+        margin-top: 20px;
+        color:#666;
+    }
+
+
+}
+
+/*small screen*/
+@media (min-width:578px) and (max-width:768px){
+    .upper-bar .pp1{
+        margin-right: 91px;
+    }
+
+    .Diverse .ss {
+        background-color:#Fff ;
+        border:1px solid #999;
+       border-radius: 5px;
+      
+        padding:0;
+        margin-right: 10px;
+    }
+    .Diverse .ss li{
+        padding: 15px;
+        font-size: 20px;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        display: inline-block;
+    }
+    .Diverse h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #555;
+        letter-spacing: -2px;
+        margin-bottom: 30px;
+    }
+
+    .our-skills h2 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .companies h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #444;
+        margin-bottom: 10px;
+    }
+
+    .pieces h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #eee;
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .about-slider .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding: 20px;
+        height: 680px;
+    }
+
+    .about-slider .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 6;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+        top: 680px;
+    }
+
+    .help h1{
+        color:#222;
+        font-size:40px;
+        font-weight: bold;
+      }
+
+      .search .pp{
+        font-size: 45px;
+        color:#666;
+        font-weight: bold;
+    }
+
+    .box-map .row .mm{
+        font-size: 20px;
+        margin-top: 20px;
+        color:#666;
+    }
+    
+}
+
+
+/*medium screen*/
+@media(min-width:769px) and (max-width:992px){
+    .upper-bar .pp1{
+        margin-right: 178px;
+    }
+    .Diverse .ss {
+        background-color:#Fff ;
+        border:1px solid #999;
+       border-radius: 5px;
+        width: 200px;
+        padding:0;
+        margin-right: 10px;
+    }
+    .Diverse .ss li{
+        padding: 15px;
+        font-size: 20px;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        
+    }
+
+    .about-slider .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding: 20px;
+        height: 680px;
+    }
+
+    .about-slider .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 6;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+        top: 680px;
+    }
+
+    .help h1{
+        color:#222;
+        font-size:50px;
+        font-weight: bold;
+      }
+    
+      .search .pp{
+        font-size: 55px;
+        color:#666;
+        font-weight: bold;
+    }
+
+    .box-map .row .mm{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+        color:#666;
+    }
+    
+}
+
+/*large screen*/
+@media(min-width:993px) and (max-width:1200px){
+    .Diverse .ss {
+        background-color:#Fff ;
+        border:1px solid #999;
+       border-radius: 5px;
+        width: 200px;
+        padding:0;
+        margin-right: 10px;
+    }
+    .Diverse .ss li{
+        padding: 15px;
+        font-size: 20px;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        
+    }
+
+    .contact-img .pk {
+        color: #333;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .contact-img label {
+        color: #444;
+        display: block;
+       margin-right: 220px;
+        font-size: 18px;
+        margin-top: 27px;
+        
+    }
+
+
+}
