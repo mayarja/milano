@@ -8,6 +8,30 @@
         padding:0;
         margin-right: 10px;
     }
+    .slider .mo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .slider p a {
+        color: #cccc;
+        margin-left: 40px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 19px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .Diverse ul li.big {
+        color: #a80707;
+        border-bottom: 1px dotted #a80707;
+        margin: 2px;
+        padding: 5px;
+        font-size: 30px;
+        display: inherit;
+    }
     .Diverse .ss li{
         padding: 15px;
         font-size: 20px;

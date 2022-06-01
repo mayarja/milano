@@ -17,11 +17,13 @@ body {
   margin-bottom: 8px;
 }
 
+
 .upper-bar .pp1 {
   margin-right: 20px;
 }
 .upper-bar .pp2 {
   color: #eee;
+  cursor: pointer;
 }
 .upper-bar .pp3 {
   margin-right: 5px;
@@ -43,6 +45,11 @@ body {
 .navbar .navbar-brand {
   font-size: 30px;
   font-weight: bold;
+}
+
+.navbar .control-logo{
+  width: 100px;
+  height: 50px;
 }
 .navbar .navbar-brand .pp1 {
   color: #a80707;
@@ -79,7 +86,8 @@ body {
 }
 
 .slider2 {
-  background: url("sidekix-media-I_QC1JICzA0-unsplash.jpg") center;
+  height: 620px;
+  background: url("pexels-vecislavas-popa-3741314.jpg") center;
   background-size: cover;
   position: relative;
 }
@@ -125,8 +133,8 @@ body {
 
 /*start  Diverse kitchens*/
 .Diverse {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #eee;
@@ -134,7 +142,7 @@ body {
 .Diverse h2 {
   font-size: 55px;
   font-weight: bold;
-  color: #555;
+  color: #333;
   letter-spacing: -2px;
   margin-bottom: 30px;
 }
@@ -170,6 +178,9 @@ body {
   background-color: #a68f64;
   cursor: pointer;
 }
+.Diverse .Diverse-img{
+  transition: all 0.9s ease-in !important;
+}
 
 .Diverse .Diverse-img .card {
   margin-bottom: 20px;
@@ -178,7 +189,7 @@ body {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
+  transition: all 0.9s ease-in !important;
 }
 
 .Diverse .Diverse-img .overlay {
@@ -191,6 +202,7 @@ body {
   color: #fff;
   padding: 10px;
   display: none;
+  transition: all 0.3s ease-in;
 }
 
 .Diverse .Diverse-img .overlay h3 {
@@ -213,6 +225,24 @@ body {
   background-color: #a80707;
   border: none;
   padding: 10px;
+  margin-bottom: 20px;
+}
+/* .Diverse .Diverse-img .overlay .boxmoney{
+display: flex;
+justify-content: space-between;
+justify-items: center;
+
+} */
+.Diverse .Diverse-img .overlay .money{
+  text-align: right;
+  margin-left: 50px;
+  font-size: 30px;
+  box-shadow: 1px 1px 20px 1px #a80707;
+  border-radius: 5px;
+  padding: 3px;
+  /* margin-bottom: 145px; */
+  display: inline-block;
+  margin-top: 7px;
 }
 
 .Diverse .Diverse-img .card:hover .overlay {
@@ -242,14 +272,14 @@ body {
 
 /*start our-skills*/
 .our-skills {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .our-skills h2 {
   font-size: 60px;
   font-weight: bold;
-  color: #444;
+  color: #333;
   margin-bottom: 10px;
 }
 
@@ -279,8 +309,8 @@ body {
 /*start single pieces */
 
 .pieces {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: url("r-architecture-TRCJ-87Yoh0-unsplash.jpg") center fixed;
   background-size: cover;
   position: relative;
@@ -407,15 +437,15 @@ body {
 
 /*start companies*/
 .companies {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #eee;
 }
 
 .companies h2 {
   font-size: 60px;
   font-weight: bold;
-  color: #444;
+  color: #333;
   margin-bottom: 10px;
 }
 
@@ -513,7 +543,35 @@ body {
 }
 .footer .helpful ul li {
   color: #444;
+  transition: 0.8s;
+  position: relative;
+  cursor: pointer;
 }
+.footer .helpful ul li a{
+color: #444;
+  text-decoration: none;
+  position: relative;
+}
+.footer .helpful ul a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 10px;
+  width: 0;
+  height: 2px;
+  background-color: #a80707;
+}
+.footer .helpful ul a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #a80707;
+  transition: 0.5s;
+}
+
 .footer .helpful ul li:before {
   font-family: "FontAwesome";
   content: "\f054";
@@ -536,6 +594,15 @@ body {
 }
 .copyright ul {
   margin: 0;
+  display: flex;
+  gap: 20px;
+}
+@media (min-width:578px){
+  .copyright ul {
+
+    justify-content: flex-end;
+  }
+
 }
 .copyright ul li {
   display: inline-block;
@@ -544,6 +611,11 @@ body {
 .copyright ul li a {
   color: #777;
   font-size: 20px;
+  opacity: 0.7;
+  transition: 0.4s;
+}
+.copyright ul li a:hover{
+  opacity: 1;
 }
 .copyright ul li a .fa-facebook {
   color: #4267b2;
@@ -615,6 +687,12 @@ body {
   border-radius: 10px;
   margin-bottom: 10px;
 }
+@media (max-width:576px){
+  .contact-img input{
+    max-width: 240px;
+  }
+}
+
 
 .contact-img .btn {
   display: block;
@@ -642,6 +720,10 @@ body {
   display: inline-block;
   width: 25%;
 }
+.contact-img .login .modal-body p{
+  width: 70%!important;
+  font-size: 20px ;
+}
 
 .contact-img .login .box .form-control .good {
   width: 50%;
@@ -658,6 +740,22 @@ body {
   width: 160px;
   color: #fff;
   border: none;
+}
+.control-massage {
+  display: flex !important;
+  justify-content: space-between;
+  gap: 146px;
+}
+.control-massage .btn1{
+  color: #eee !important;
+  float: left;
+  width: 160px !important;
+  border: transparent !important;
+  padding: 0 !important;
+}
+.control-massage{
+  border-radius: 20px !important;
+    padding: 7px !important;
 }
 
 .contact-img .cc {
@@ -732,6 +830,7 @@ body {
   height: 320px;
   background-color: rgb(108, 162, 231);
   border-radius: 15px;
+  object-fit: contain;
 }
 
 .about-slider .row .box-talk {
@@ -893,12 +992,152 @@ body {
 }
 
 .box-map .big-box2 {
-  background-color: #ccc;
+  background-color: #eee;
   margin-top: 17px;
   margin-bottom: 17px;
 }
 
+.box-map .big-box1 img,
+.box-map .big-box2 img{
+  border: 0;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
 /**                      END PAGE MAP             **/
+
+
+/**                      start contactUs page       **/
+
+.contactUs{
+  background-color: #eee;
+  margin-bottom: 60px !important;
+}
+.contactUs h4{
+  background-color: #a80707;
+  color: #eee;
+
+}
+
+.boxImage .card{
+  box-shadow: 0 0 20px #ccc;
+  margin: 0 auto;
+}
+.boxImage .card img{
+
+}
+.boxcards{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.boxcards .bigbox{
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.boxcards .bigbox:hover{
+  background-color: #a80707;
+  color: #eee;
+}
+
+.boxcards .bigbox .box{
+  border: 3px solid #fff;
+  display: flex;
+  justify-items: center;
+  flex-direction: row;
+}
+.boxcards .bigbox .box p{
+  margin-top: 10px;
+}
+
+.contactform{
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactform h5{
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.contactform form{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ justify-items: center;
+ max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.contactform form label{
+ margin-bottom: 10px;
+ font-size: 23px;
+}
+.contactform form input{
+  outline: none;
+  border-radius:3px;
+  border:transparent ;
+  padding: 10px;
+}
+.contactform form textarea{
+  outline: none;
+  border: transparent;
+  resize: none;
+}
+.contactform form .submit{
+  background-color: #a80707;
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  color: #eee;
+
+}
+
+/**                      end contactUs page       **/
+
+
+/**                      start privacy page        **/
+
+.box-priv h5,
+.box-priv h4{
+  color: #a80707;
+}
+.box-priv p{
+  color: #666;
+}
+
+.box-priv li{
+  color: #444;
+}
+/**                       end privacy page           **/
+
+/**                       start privacy Cookes page   **/
+
+.box-Cookie h5,
+.box-Cookie h3,
+.box-Cookie h4{
+  color: #a80707;
+}
+.box-Cookie p{
+  color: #666;
+}
+.box-Cookie a{
+  text-decoration: none;
+  color: #a80707;
+}
+/**                       end privacy Cookes page   **/
 
 /*start scroll-top*/
 

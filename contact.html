@@ -96,7 +96,7 @@
             <a class="nav-link" href="work/work3-about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="work/work3-help.html">Help</a>
+            <a class="nav-link" href="work/work3-help.html">FAQ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="work/work3-map.html">Map</a>
@@ -116,7 +116,7 @@
 
             <div class="col-lg-6 col-md-12 col-xs-12">
         <div class="card">  
-            <img src="work/pexels-max-vakhtbovych-6207824.JPG" class="card-img-top qq" alt="...">
+            <img src="" class="card-img-top qq" alt="...">
         </div>
              </div>
 
@@ -124,8 +124,8 @@
               <div class="col-lg-6 col-md-12 col-xs-12 jj">
                   <p class="pk">To view the seller’s contact info, please enter your email address.</p>
                   <label>Enter your email address:</label>
-                  <form>
-                  <input type="email" name="email" class="input input-lg ai" placeholder="Xx@hotmail.com" autofocus="on" autocomplete="off" >
+                  <form class="father">
+                  <input type="text" name="email" class="input input-lg ai" placeholder="Xx@hotmail.com" required autofocus="on" autocomplete="off"  id="cheak">
                   <input type="submit" class="btn btn-primary ak1" value="send"></input>
                 </form>
                   <p class="ll">The VirtualExpo Group protects your privacy: when you request a quote, documentation or price options, when you ask a question or consult a Seller's price options or contact details, your Personal Data will be transferred to the Seller or, if applicable, to one of their area managers or distributors who will be able to respond to you directly. See our Privacy Policy for details on the method used to process your data, the purpose and your rights concerning this data. By continuing to use our website you agree to our General Terms of Use.</p>
@@ -151,8 +151,28 @@
                                 <option>cash</option>
                                 <option>cridt card</option>
                             </select>
-                            <input type="submit" class="btn btn-primary ak2" value="send"></input>
-                        </form>
+                            <input type="button" class="btn btn-primary ak2" data-bs-toggle="modal" data-bs-target="#nn" data-bs-whatever="@mdo" value="send"></input>
+                            <div class="modal fade" id="nn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-content">
+                              <div class="modal-header">
+                              <h5 class="modal-title h5masage" id="exampleModalLabel">Hello Sir:</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p class="pagmasage">we will sand massage to your email after 20min to contact with you be ready</p>
+                              </div>
+                              <div class="modal-footer">
+                                  <div class="control-massage d-flex">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okey</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    
+                                  </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                      </form>
                     </div>
                 </div>
               </div>
