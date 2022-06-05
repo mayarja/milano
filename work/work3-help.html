@@ -381,5 +381,25 @@
 <script src="work3.js"></script>
 <script src="wow.min.js"></script>
  <script> new WOW().init();</script>
+ <script>
+  let scrollx = document.querySelector('.scroll-top');
+  window.onscroll=function(){
+
+    if(window.scrollY>=600){
+     scrollx.style.display = "block"
+    }
+    else{
+     scrollx.style.display = "none"
+    }
+
+  }
+  scrollx.onclick = function(){
+    window.scrollTo(
+      top=0,
+      left = 0,
+      behaver = "smooth"
+    )
+  }
+</script>
 </body>
 </html>

@@ -138,21 +138,23 @@
                           <div class="box">
                         <from class="form-control">
                             <p>first-name:</p>
-                            <input class="first-name" type="text" name="first-name" id="name" placeholder="first-name">
+                            <input class="first-name" type="text" name="first-name" id="f-name" placeholder="first-name">
                             <p>last-name:</p>
-                            <input class="last-name" type="text" name="last-name" id="name" placeholder="last-name">
+                            <input class="last-name" type="text" name="last-name" id="l-name" placeholder="last-name">
                             <p>password:</p>
-                            <input class="password1" type="password" name="password" id="pass" placeholder="password">
+                            <input class="password1" type="password" name="password" id="f-pass" placeholder="password > 7 char">
                             <p>pass verify:</p>
-                            <input class="password2" type="password" name="password" id="pass" placeholder="password again">
+                            <input class="password2" type="password" name="password" id="l-pass" placeholder="password again">
                             <p class="good">Payment method</p>
                             <select>
                                 <option>Paypal</option>
                                 <option>cash</option>
                                 <option>cridt card</option>
                             </select>
+                            <button class="btn btn-primary ak22" id="ak22">Done</button>
                             <input type="button" class="btn btn-primary ak2" data-bs-toggle="modal" data-bs-target="#nn" data-bs-whatever="@mdo" value="send"></input>
-                            <div class="modal fade" id="nn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <h6 class="text-c mt-2" id="text-c"></h6>
+                            <div class="modal fade lppp" id="nn" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
                               <div class="modal-dialog">
                               <div class="modal-content">
                               <div class="modal-header">
@@ -164,7 +166,7 @@
                               </div>
                               <div class="modal-footer">
                                   <div class="control-massage d-flex">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Okey</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="ok">Okey</button>
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                     
                                   </div>

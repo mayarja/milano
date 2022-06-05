@@ -71,7 +71,7 @@ body {
 /*end navbar*/
 
 /*start slider*/
-.slider {
+ .slider {
   background: url("r-architecture-TRCJ-87Yoh0-unsplash.jpg") center;
   background-size: cover;
   position: relative;
@@ -127,9 +127,58 @@ body {
 
 .slider p i {
   color: #a80707;
-}
+} 
+
+
 
 /*end slider*/
+
+
+/*start slider-home*/
+.silder-home .carousel-item{
+position: relative !important;
+}
+@media (min-width:1200px){
+  .silder-home .carousel-item{
+    height: 621px !important;
+  }
+  .silder-home .carousel-caption h2{
+    font-size:  3rem !important;
+   }
+}
+ .silder-home .carousel-control-next-icon,
+ .silder-home .carousel-control-prev-icon {
+   padding: 25px !important;
+   opacity: 1 !important;
+ }
+ .silder-home .carousel-control-next-icon:hover{
+   opacity: 1;
+ }
+ .silder-home img{
+   position: relative;
+   object-fit: cover;
+   height: 100%;
+ }
+ .silder-home .carousel-indicators [data-bs-target]{
+   background-color: #a80707;
+   height: 5px;
+ }
+ .silder-home .carousel-caption {
+   background-color: rgb(173 173 173 / 69%);
+   width: fit-content;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+ }
+ .silder-home .carousel-caption h2{
+   color: #a80707;
+ }
+ .silder-home .carousel-caption p{
+   font-size: 20px;
+ }
+
+
+/*end slider-home*/
 
 /*start  Diverse kitchens*/
 .Diverse {
@@ -137,6 +186,7 @@ body {
   padding-bottom: 80px;
   padding-right: 20px;
   padding-left: 20px;
+  margin-top: -10px;
   background-color: #eee;
 }
 .Diverse h2 {
@@ -740,6 +790,7 @@ color: #444;
   width: 160px;
   color: #fff;
   border: none;
+  display: none;
 }
 .control-massage {
   display: flex !important;
@@ -1151,8 +1202,8 @@ color: #444;
   text-align: center;
   color: #eee;
   cursor: pointer;
-  display: none;
   z-index: 9999;
+  display: none;
 }
 
 .scroll-top i {
